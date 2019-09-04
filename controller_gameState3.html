@@ -6,27 +6,34 @@
     <title></title>
     <script type="text/javascript" src="https://www.airconsole.com/api/airconsole-1.7.0.js"></script>
     <script type="text/javascript" src="controller.js"></script>
-    <link rel="stylesheet" href="controller.css" />
+    <!-- <link rel="stylesheet" href="controller.css" /> -->
+    <link rel="stylesheet" href="test.css" />
 </head>
 <body>
-        <div class="formContainer">
-<form id="form4" style="display: block;">
-    <div>Pays 4 to 1: lower:<input type="button" g="lower" value="-">
-        <input type="number" value="0" name="guesses" id="lower" ror="4" disabled="">
-        <input type="button" g="lower" value="+">
+    <div class="formContainer">
+        <form id="form4" style="display: block;">
+            <div>
+                <p>Pays 4 to 1: lower:</p>
+                <button type="button" g="lower" value="-">-</button>
+                <input type="number" value="0" name="guesses" id="lower" ror="4" disabled="">
+                <button type="button" g="lower" value="+">+</button>
+            </div>
+            <div>
+                <p>Pays 3 to 1: 4:</p>
+                <button type="button" g="4" value="-">-</button>
+                <input type="number" value="0" name="guesses" id="4" ror="3" disabled="">
+                <button type="button" g="4" value="+">+</button>
+            </div>
+            <div>
+                <p>Pays 3 to 1: 5:</p>
+                <button type="button" g="5" value="-">-</button>
+                <input type="number" value="0" name="guesses" id="5" ror="3" disabled="">
+                <button type="button" g="5" value="+">+</button>
+            </div>
+            <div>
+                <input id="submitGuesses" type="button" value="All Players Ready!">
+            </div>
+        </form>
     </div>
-    <div>Pays 3 to 1: 4:<input type="button" g="4" value="-">
-        <input type="number" value="0" name="guesses" id="4" ror="3" disabled="">
-        <input type="button" g="4" value="+">
-    </div>
-    <div>Pays 3 to 1: 5:<input type="button" g="5" value="-">
-        <input type="number" value="0" name="guesses" id="5" ror="3" disabled="">
-        <input type="button" g="5" value="+">
-    </div>
-    <div>
-        <input id="submitGuesses" type="button" value="All Players Ready!">
-    </div>
-</form>
-</div>
 </body>
 </html>
