@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -11,10 +11,11 @@
 <body>
     <div class="formContainer">
         <form>
+            <p id="question">How many chambers does the heart have?</p>
             <div>
-                <input type="text" id="playerInfo" placeholder="Player Name" onfocus="this.placeholder=''" onblur="this.placeholder='Player Name'"><br>
+                <input type="number" placeholder="Answer" onfocus="this.placeholder=''" onblur="this.placeholder='Answer'"><br>
+                <input type="button" class="button" id="playerBtn" value="Submit" onclick="send()" />
             </div>
-            <input type="button" class="button" id="playerBtn" value="Submit" onclick="send()" />
         </form>
     </div>
 </body>
