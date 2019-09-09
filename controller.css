@@ -60,7 +60,7 @@ body {
     color: white;
   }
   h1 {
-    position:absolute;
+    position:fixed;
     top:-1vh;
     right:8vw;
   }
