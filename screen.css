@@ -30,8 +30,14 @@ html {
     outline: none;
     color: white;
     caret-color: white;
-    font-size: 1em;
     font-family: 'Cardo', serif;
+  }
+  input[type=text] {
+    font-size: 2em;
+  }
+  input[type=number] {
+    font-size: 1em;
+    text-align: center;
   }
   p {
     font-size: 2em;
@@ -46,3 +52,20 @@ html {
     height: 100%;
     overflow: auto;
   }
+  #answerForm {
+    font-family: 'Cardo', serif;
+  }
+  .answers {
+    display: flex;
+    font-size: 2em;
+  }
+  .left {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.right {
+    width: 70%;
+    margin-left: 10px;
+    float:left;
+}
